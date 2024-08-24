@@ -18,7 +18,7 @@ extra-source-files:  README.md, CHANGELOG.md
 
 executable madtex
   main-is:             Main.hs
-  -- other-modules:
+  other-modules: Parsers, Utils
   -- other-extensions:
   build-depends:       base >=4.13 && <4.14, regex-tdfa
   -- hs-source-dirs:
